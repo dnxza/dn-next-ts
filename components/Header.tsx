@@ -1,11 +1,7 @@
 import * as React from 'react'
 import Link from 'next/link'
 
-type Props = {
-  title?: string
-}
-
-const Header: React.FunctionComponent<Props> = () => (
+const Header: React.FunctionComponent = () => (
   <div>
     <header>
       <nav>

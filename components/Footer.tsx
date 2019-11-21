@@ -1,9 +1,6 @@
 import * as React from 'react'
-type Props = {
-  title?: string
-}
 
-const Footer: React.FunctionComponent<Props> = () => (
+const Footer: React.FunctionComponent = () => (
   <div>
     <footer>
       <hr />
